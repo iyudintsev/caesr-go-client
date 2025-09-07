@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "github.com/iyudintsev/caesr-go-client";
+
+package caesr;
+
+service CaesrService {
+    rpc Recognize (CaesrRequest) returns (CaesrResponse) {}
+}
+
+message CaesrRequest {
+    repeated float audio_chunk = 1;
+    int32 sample_rate = 2;
+}
+
+message CaesrResponse {
+    string transcript = 1;
+}
