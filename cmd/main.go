@@ -60,4 +60,7 @@ func main() {
 		inputStream <- req
 	}
 
+	if err := g.Wait(); err != nil {
+		fmt.Println(err.Error())
+	}
 }
