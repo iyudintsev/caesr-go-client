@@ -5,7 +5,7 @@ option go_package = "github.com/iyudintsev/caesr-go-client";
 package caesr;
 
 service CaesrService {
-    rpc Recognize (CaesrRequest) returns (CaesrResponse) {}
+    rpc Recognize (stream CaesrRequest) returns (stream CaesrResponse);
 }
 
 message CaesrRequest {

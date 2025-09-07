@@ -130,9 +130,9 @@ const file_caesr_proto_rawDesc = "" +
 	"\rCaesrResponse\x12\x1e\n" +
 	"\n" +
 	"transcript\x18\x01 \x01(\tR\n" +
-	"transcript2H\n" +
-	"\fCaesrService\x128\n" +
-	"\tRecognize\x12\x13.caesr.CaesrRequest\x1a\x14.caesr.CaesrResponse\"\x00B'Z%github.com/iyudintsev/caesr-go-clientb\x06proto3"
+	"transcript2J\n" +
+	"\fCaesrService\x12:\n" +
+	"\tRecognize\x12\x13.caesr.CaesrRequest\x1a\x14.caesr.CaesrResponse(\x010\x01B'Z%github.com/iyudintsev/caesr-go-clientb\x06proto3"
 
 var (
 	file_caesr_proto_rawDescOnce sync.Once
